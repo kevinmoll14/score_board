@@ -102,7 +102,6 @@ function validate_score_inputs(event) {
 }
 
 document.getElementById('connect').addEventListener("click", connect);
-document.getElementById('send').addEventListener("click", write);
 document.getElementById('score_1_inc').addEventListener("click", increment_score);
 document.getElementById('score_2_inc').addEventListener("click", increment_score);
 document.getElementById('score_1_dec').addEventListener("click", decrement_score);
