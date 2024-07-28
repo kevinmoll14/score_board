@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web bluetooth</title>
+    <script src="index.js" defer="True"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <div class="buttons">
+        <button id="connect">Connect</button><br>
+        Team 1: <button id="score_1_inc" team="1">+</button>
+        <button id="score_1_dec" team="1">-</button>
+        <button id="score_1_set" team="1" score_field="team_1_score">Set Score</button>
+        <input type="number" min="0" max="99" id="team_1_score"><br>
+        Team 2: <button id="score_2_inc" team="2">+</button>
+        <button id="score_2_dec" team="2">-</button>
+        <button id="score_2_set" team="2" score_field="team_2_score">Set Score</button>
+        <input type="number" min="0" max="99" id="team_2_score"><br>
+    </div>
+
+    <div id="terminal">
+        <span id="received-message" class="placeholder">Waiting for message...</span>
+    </div>
+
+</main>
+</body>
+</html>
